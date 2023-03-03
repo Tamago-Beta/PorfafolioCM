@@ -1,0 +1,72 @@
+.contenedor {
+  width: 96%;
+  max-width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.titulo {
+  position: relative;
+  color: var(--color-primario);
+  margin-left: 1.4rem;
+  margin-top: 10rem;
+  margin-bottom: 7.6rem;
+}
+
+.titulo::before {
+  content: "";
+  background-image: url(../img/dots.svg);
+  background-repeat: no-repeat;
+  background-size: 50px;
+  opacity: 0.1;
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 40px;
+  left: -16px;
+  top: -16px;
+}
+
+.boton {
+  color: #ffff;
+  border: none;
+  padding: 1.2rem 3.2rem;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.boton:hover {
+  animation-name: jello;
+  animation-duration: 1s;
+  transform-origin: center;
+}
+@keyframes jello {
+  from,
+  11.1%,
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+  22.2% {
+    transform: skewX(-12.5deg) skewY(-12.5deg);
+  }
+  33.3% {
+    transform: skewX(6.25deg) skewY(6.25deg);
+  }
+  44.4% {
+    transform: skewX(-3.125deg) skewY(-3.125deg);
+  }
+  55.5% {
+    transform: skewX(1.5625deg) skewY(1.5625deg);
+  }
+  66.6% {
+    transform: skewX(-0.78125deg) skewY(-0.78125deg);
+  }
+  77.7% {
+    transform: skewX(0.390625deg) skewY(0.390625deg);
+  }
+  88.8% {
+    transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+  }
+}
