@@ -29,3 +29,20 @@ a {
 li {
   list-style: none;
 }
+
+.iframe {
+  display: block;
+  position: fixed;
+  top: 40px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 80%;
+  height: 90vh;
+  z-index: 3;
+  margin: 0 auto;
+}
+
+.iframe--close {
+  display: none;
+}

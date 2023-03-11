@@ -163,10 +163,11 @@
             experiencia del usuario sea agradable ofreciendo un diseño atractivo y funciones adaptables.
           </p>
           <button class="tarjeta__boton boton">
-            <a href="#">Descargar CV</a>
+            <a href="assets/docs/CarlosMacavilcaVásquezCV.pdf">Descargar CV</a>
           </button>
         </div>
       </div>
+
       <div class="hobbies">
         <div class="hobbie">
           <i class="hobbie__icon fa-solid fa-person-walking"></i>
@@ -388,21 +389,21 @@
           <div class="entradas">
             <div class="entradas--flex">
               <div class="entrada">
-                <input class="entrada__caja" type="text" name="name" placeholder="Nombre" required>
+                <input class="entrada__caja" type="text" name="name" placeholder="Nombre" required data-tipo="name">
                 <span class="entrada__mensaje">Este campo no es valido</span>
               </div>
               <div class="entrada">
-                <input class="entrada__caja" type="email" name="email" placeholder="Correo" required>
+                <input class="entrada__caja" type="email" name="email" placeholder="Correo" required data-tipo="email">
                 <span class="entrada__mensaje">Este campo no es valido</span>
               </div>
             </div>
             <div class="entrada">
-              <input class="entrada__caja" type="text" name="subject" placeholder="Asunto" required>
+              <input class="entrada__caja" type="text" name="subject" placeholder="Asunto" required data-tipo="subject">
               <span class="entrada__mensaje">Este campo no es valido</span>
             </div>
             <div class="entrada">
               <textarea class="entrada__caja entrada__caja--txtarea" name="message" cols="30" rows="10"
-                placeholder="Mensaje" required></textarea>
+                placeholder="Mensaje" required data-tipo="message"></textarea>
               <span class="entrada__mensaje">Este campo no es valido</span>
             </div>
             <button class="entrada__boton boton" name="submit" type="submit">Enviar mensaje</button>

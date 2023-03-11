@@ -1,6 +1,7 @@
 .entrada__boton {
-  margin: 2rem auto;
+  margin: 2rem 0;
   background: var(--color-terciario);
   color: var(--background);
   font-size: 1.6rem;
+  width: 185px;
 }

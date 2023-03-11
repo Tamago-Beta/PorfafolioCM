@@ -13,6 +13,22 @@
   padding-inline: 0.7rem;
 }
 
+.entrada--invalida {
+  margin-bottom: 0.5rem;
+}
+.entrada--invalida .entrada__caja {
+  border: 1px solid #ff2d75;
+  border-radius: 7px;
+  color: #ff2d75;
+}
+.entrada--invalida .entrada__caja::placeholder {
+  color: #ff2d75;
+}
+
+.entrada--invalida .entrada__mensaje {
+  display: block;
+}
+
 .titulo {
   position: relative;
   color: var(--color-primario);
