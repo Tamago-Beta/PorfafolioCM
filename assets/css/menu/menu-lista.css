@@ -1,0 +1,17 @@
+.menu__lista {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  gap: 2.7rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .menu__lista {
+    flex-direction: row;
+    justify-content: flex-end;
+    height: unset;
+    gap: unset;
+  }
+}

@@ -1,0 +1,22 @@
+.proyecto__tags {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transform-style: flat;
+}
+
+.proyecto__tags::before {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  width: 100%;
+  height: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.proyecto__tags:hover::before {
+  height: 100%;
+}

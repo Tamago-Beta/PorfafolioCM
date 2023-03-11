@@ -1,0 +1,9 @@
+.redes__icon {
+  font-size: 3rem;
+  color: var(--background);
+  transition: color 0.2s ease-in-out;
+}
+
+.redes__icon:hover {
+  color: var(--color-cuaternario);
+}

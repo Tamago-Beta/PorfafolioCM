@@ -1,0 +1,21 @@
+@import url(./mensaje__titulo.css);
+@import url(./mensaje__email.css);
+
+.mensaje {
+  height: 180px;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.mensaje::before {
+  content: "";
+  background-image: url(../../img/contact_bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -100;
+  top: 0;
+  width: 100%;
+  min-width: 250px;
+  height: 170px;
+}

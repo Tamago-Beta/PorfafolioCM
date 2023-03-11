@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portafolio Carlos</title>
 
+  <link rel="icon" href="assets/img/favicon.png">
+
   <!-- Libreria de fontAwesome para iconos -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
@@ -19,59 +21,74 @@
     href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet" />
 
-  <link rel="stylesheet" href="assets/css/normalize.css" />
-  <link rel="stylesheet" href="assets/css/reset.css" />
-  <link rel="stylesheet" href="assets/css/main.css" />
+  <!-- <link rel="stylesheet" href="assets/css/base/normalize.css" /> -->
+  <link rel="stylesheet" href="assets/css/base/base.css" />
   <link rel="stylesheet" href="assets/css/cabecera.css" />
+  <link rel="stylesheet" href="assets/css/logo/logo-titulo.css" />
+  <link rel="stylesheet" href="assets/css/menu/menu.css" />
+  <link rel="stylesheet" href="assets/css/barras/barras.css" />
   <link rel="stylesheet" href="assets/css/banner.css" />
-  <link rel="stylesheet" href="assets/css/sobremi.css" />
+  <link rel="stylesheet" href="assets/css/bubbles.css" />
+  <link rel="stylesheet" href="assets/css/perfil/perfil.css" />
+  <link rel="stylesheet" href="assets/css/redes/redes.css" />
+  <!-- <link rel="stylesheet" href="assets/css/sobremi.css" /> -->
+  <link rel="stylesheet" href="assets/css/informacion/informacion.css" />
+  <link rel="stylesheet" href="assets/css/tarjeta/tarjeta.css" />
+  <link rel="stylesheet" href="assets/css/hobbies.css" />
+  <link rel="stylesheet" href="assets/css/hobbie/hobbie.css" />
   <link rel="stylesheet" href="assets/css/habilidades.css" />
-  <link rel="stylesheet" href="assets/css/formacion.css" />
+  <link rel="stylesheet" href="assets/css/habilidad/habilidad.css" />
+  <link rel="stylesheet" href="assets/css/formaciones.css" />
+  <link rel="stylesheet" href="assets/css/formacion/formacion.css" />
   <link rel="stylesheet" href="assets/css/proyectos.css" />
-  <link rel="stylesheet" href="assets/css/contactame.css" />
+  <link rel="stylesheet" href="assets/css/proyecto/proyecto.css" />
+  <link rel="stylesheet" href="assets/css/implementos/implementos.css" />
+  <link rel="stylesheet" href="assets/css/contacto.css" />
+  <link rel="stylesheet" href="assets/css/mensaje/mensaje.css" />
+  <link rel="stylesheet" href="assets/css/entradas/entradas.css" />
+  <link rel="stylesheet" href="assets/css/entrada/entrada.css" />
   <link rel="stylesheet" href="assets/css/rodapie.css" />
 </head>
 
 <body>
-  <main>
-    <header class="cabecera">
-      <div class="cabecera__contenedor">
-        <a href="#">
-          <h2 class="cabecera__logo">Carlos Macavilca<span>.</span></h2>
-        </a>
-        <nav class="cabecera__menu">
-          <ul class="cabecera__menu__lista">
-            <li class="cabecera__menu__lista__item">
-              <a href="#" class="cabecera__menu__lista__item__link">Inicio</a>
-            </li>
-            <li class="cabecera__menu__lista__item">
-              <a href="#sobremi" class="cabecera__menu__lista__item__link">Sobre mi</a>
-            </li>
-            <li class="cabecera__menu__lista__item">
-              <a href="#habilidades" class="cabecera__menu__lista__item__link">Habilidades</a>
-            </li>
-            <li class="cabecera__menu__lista__item">
-              <a href="#formacion" class="cabecera__menu__lista__item__link">Formación</a>
-            </li>
-            <li class="cabecera__menu__lista__item">
-              <a href="#proyectos" class="cabecera__menu__lista__item__link">Proyectos</a>
-            </li>
-            <li class="cabecera__menu__lista__item">
-              <a href="#contactame" class="cabecera__menu__lista__item__link">Contacto</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="cabecera__barmenu">
-          <span class="cabecera__barmenu__line1"></span>
-          <span class="cabecera__barmenu__line2"></span>
-          <span class="cabecera__barmenu__line3"></span>
-        </div>
+  <header class="cabecera">
+    <div class="cabecera__bloque contenedor">
+      <a class="logo" href="#">
+        <h2 class="logo__titulo">Carlos Macavilca<span>.</span></h2>
+      </a>
+      <nav class="menu">
+        <ul class="menu__lista">
+          <li class="menu__item">
+            <a href="#" class="menu__link">Inicio</a>
+          </li>
+          <li class="menu__item">
+            <a href="#sobremi" class="menu__link">Sobre mi</a>
+          </li>
+          <li class="menu__item">
+            <a href="#habilidades" class="menu__link">Habilidades</a>
+          </li>
+          <li class="menu__item">
+            <a href="#formacion" class="menu__link">Formación</a>
+          </li>
+          <li class="menu__item">
+            <a href="#proyectos" class="menu__link">Proyectos</a>
+          </li>
+          <li class="menu__item">
+            <a href="#contactame" class="menu__link">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="barras">
+        <span class="barras__linea1"></span>
+        <span class="barras__linea2"></span>
+        <span class="barras__linea3"></span>
       </div>
+    </div>
 
-    </header>
-
-    <section id="inicio" class="banner">
-      <div class="banner__bubbles">
+  </header>
+  <main>
+    <section class="banner" id="inicio">
+      <div class="bubbles">
         <span style="--i: 11"></span>
         <span style="--i: 12"></span>
         <span style="--i: 24"></span>
@@ -109,232 +126,248 @@
         <span style="--i: 15"></span>
         <span style="--i: 13"></span>
       </div>
-      <div class="banner__perfil">
-        <div class="banner__perfil__img"></div>
-        <h1 class="banner__perfil__nombre">Carlos Macavilca</h1>
-        <p class="banner__perfil__descripcion">Soy desarrollador front-End</p>
-        <div class="banner__perfil__redes">
-          <a href="https://github.com/Tamago-Beta?tab=repositories" target="_blank"><i
-              class="banner__perfil__redes__icon fa-brands fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/carlos-a-macavilca-v%C3%A1squez-478a8a20b/" target="_blank"><i
-              class="banner__perfil__redes__icon fa-brands fa-linkedin"></i></a>
-        </div>
-        <a href="#sobremi"><button class="banner__perfil__boton">Conóceme<i
-              class="fa-solid fa-arrow-turn-down"></i></button></a>
+      <div class="perfil">
+        <div class="perfil__img"></div>
+        <h1 class="perfil__nombre">Carlos Macavilca</h1>
+        <p class="perfil__descripcion">Soy desarrollador front-End</p>
+        <ul class="redes">
+          <li class="redes__item">
+            <a class="redes__link" href="https://github.com/Tamago-Beta?tab=repositories" target="_blank">
+              <i class="redes__icon fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li class="redes__item">
+            <a class="redes__link" href="https://www.linkedin.com/in/carlos-a-macavilca-v%C3%A1squez-478a8a20b/"
+              target="_blank">
+              <i class="redes__icon fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+        <button class="perfil__boton">
+          <a href="#sobremi">Conóceme<i class="fa-solid fa-arrow-turn-down"></i></a>
+        </button>
+        </a>
       </div>
     </section>
 
-    <section id="sobremi" class="sobremi contenedor">
+    <section class="contenedor seccion--item" id="sobremi">
       <h1 class="titulo">Sobre mi</h1>
-      <div class="sobremi__informacion">
-        <div class="sobremi__informacion__foto">
-          <img class="sobremi__informacion__foto__img" src="assets/img/avatar__portafolio.svg" alt="Avatar portafolio">
-        </div>
-        <div class="sobremi__informacion__tarjeta">
-          <div class="sobre__informacion__tarjeta__presentacion">
-            <p class="sobre__informacion__tarjeta__presentacion__info">
-              Soy Carlos Macavilca, desarrollador web junior de Lima, Perú. Poseo excelentes habilidades de comunicación
-              y la capacidad de poder trabajar en equipo con dinamismo y creatividad. Me considero una persona
-              autodidacta por lo que siempre estoy en constante aprendizaje.<br><br>
-              Actualmente diseño y desarrollo sitios web dinámicos y responsivos, intentando siempre priorizar que la
-              experiencia del usuario sea agradable ofreciendo un diseño atractivo y funciones adaptables.
-            </p>
-            <button class="sobremi__informacion__tarjeta__presentacion__boton boton">
-              Descargar CV
-            </button>
-          </div>
+      <div class="informacion">
+        <img class="informacion__foto" src="assets/img/avatar__portafolio.svg" alt="Avatar portafolio">
+        <div class="tarjeta">
+          <p class="tarjeta__info">
+            Soy Carlos Macavilca, desarrollador web junior de Lima, Perú. Poseo excelentes habilidades de comunicación
+            y la capacidad de poder trabajar en equipo con dinamismo y creatividad. Me considero una persona
+            autodidacta por lo que siempre estoy en constante aprendizaje.<br><br>
+            Actualmente diseño y desarrollo sitios web dinámicos y responsivos, intentando siempre priorizar que la
+            experiencia del usuario sea agradable ofreciendo un diseño atractivo y funciones adaptables.
+          </p>
+          <button class="tarjeta__boton boton">
+            <a href="#">Descargar CV</a>
+          </button>
         </div>
       </div>
-      <div class="sobremi__hobbies">
-        <div class="sobremi__hobbies__item">
-          <i class="sobremi__hobbies__item__icon fa-solid fa-person-walking"></i>
-          <p class="sobremi__hobbies__item__nombre">Caminar</p>
+      <div class="hobbies">
+        <div class="hobbie">
+          <i class="hobbie__icon fa-solid fa-person-walking"></i>
+          <p class="hobbie__dato">Caminar</p>
         </div>
-        <div class="sobremi__hobbies__item">
-          <i class="sobremi__hobbies__item__icon fa-solid fa-headphones"></i>
-          <p class="sobremi__hobbies__item__nombre">Oir música</p>
+        <div class="hobbie">
+          <i class="hobbie__icon fa-solid fa-headphones"></i>
+          <p class="hobbie__dato">Oir música</p>
         </div>
-        <div class="sobremi__hobbies__item">
-          <i class="sobremi__hobbies__item__icon fa-solid fa-gamepad"></i>
-          <p class="sobremi__hobbies__item__nombre">Videojuegos</p>
+        <div class="hobbie">
+          <i class="hobbie__icon fa-solid fa-gamepad"></i>
+          <p class="hobbie__dato">Videojuegos</p>
         </div>
-        <div class="sobremi__hobbies__item">
-          <i class="sobremi__hobbies__item__icon fa-solid fa-pencil"></i>
-          <p class="sobremi__hobbies__item__nombre">Dibujar</p>
+        <div class="hobbie">
+          <i class="hobbie__icon fa-solid fa-pencil"></i>
+          <p class="hobbie__dato">Dibujar</p>
         </div>
       </div>
     </section>
 
-    <section id="habilidades" class="habilidades contenedor">
+    <section class="contenedor seccion--item" id="habilidades">
       <h1 class="titulo">Habilidades</h1>
-      <div class="habilidades__items">
-        <div class="habilidades__items__item">
-          <img class="habilidades__items__item__img" src="assets/img/icon-html5.svg" alt="HTML 5">
-          <p class="habilidades__items__item__nombre">HTML 5</p>
+      <div class="habilidades">
+        <div class="habilidad">
+          <img class="habilidad__img" src="assets/img/icon-html5.svg" alt="HTML 5">
+          <p class="habilidad__nombre">HTML 5</p>
         </div>
-        <div class="habilidades__items__item">
-          <img class="habilidades__items__item__img" src="assets/img/icon-css3.svg" alt="HTML 5">
-          <p class="habilidades__items__item__nombre">CSS 3</p>
+        <div class="habilidad">
+          <img class="habilidad__img" src="assets/img/icon-css3.svg" alt="HTML 5">
+          <p class="habilidad__nombre">CSS 3</p>
         </div>
-        <div class="habilidades__items__item">
-          <img class="habilidades__items__item__img" src="assets/img/icon-javascript.svg" alt="HTML 5">
-          <p class="habilidades__items__item__nombre">javascript</p>
+        <div class="habilidad">
+          <img class="habilidad__img" src="assets/img/icon-javascript.svg" alt="HTML 5">
+          <p class="habilidad__nombre">javascript</p>
         </div>
-        <div class="habilidades__items__item">
-          <img class="habilidades__items__item__img" src="assets/img/icon-wordpress.svg" alt="HTML 5">
-          <p class="habilidades__items__item__nombre">Wordpress</p>
+        <div class="habilidad">
+          <img class="habilidad__img" src="assets/img/icon-wordpress.svg" alt="HTML 5">
+          <p class="habilidad__nombre">Wordpress</p>
         </div>
-        <div class="habilidades__items__item">
-          <img class="habilidades__items__item__img" src="assets/img/icon-sass.svg" alt="HTML 5">
-          <p class="habilidades__items__item__nombre">Sass</p>
+        <div class="habilidad">
+          <img class="habilidad__img" src="assets/img/icon-sass.svg" alt="HTML 5">
+          <p class="habilidad__nombre">Sass</p>
         </div>
-        <div class="habilidades__items__item">
-          <img class="habilidades__items__item__img" src="assets/img/icon-figma.svg" alt="HTML 5">
-          <p class="habilidades__items__item__nombre">Figma</p>
+        <div class="habilidad">
+          <img class="habilidad__img" src="assets/img/icon-figma.svg" alt="HTML 5">
+          <p class="habilidad__nombre">Figma</p>
         </div>
-        <div class="habilidades__items__item">
-          <img class="habilidades__items__item__img" src="assets/img/icon-git.svg" alt="HTML 5">
-          <p class="habilidades__items__item__nombre">Git</p>
+        <div class="habilidad">
+          <img class="habilidad__img" src="assets/img/icon-git.svg" alt="HTML 5">
+          <p class="habilidad__nombre">Git</p>
         </div>
-        <div class="habilidades__items__item">
-          <img class="habilidades__items__item__img" src="assets/img/icon-github.svg" alt="HTML 5">
-          <p class="habilidades__items__item__nombre">Github</p>
+        <div class="habilidad">
+          <img class="habilidad__img" src="assets/img/icon-github.svg" alt="HTML 5">
+          <p class="habilidad__nombre">Github</p>
         </div>
       </div>
       </div>
     </section>
 
-    <section id="formacion" class="formacion contenedor">
+    <section class="contenedor seccion--item" id="formacion">
       <h1 class="titulo">Formación académica</h1>
-      <div class="formacion__instituciones">
-        <div class="formacion__instituciones__intitucion">
-          <img class="formacion__instituciones__intitucion__img formacion__instituciones__intitucion__img--autonoma"
-            src="assets/img/logo-autonoma.png" alt="logo universidad autonoma del Perú" />
-          <p class="formacion__instituciones__intitucion__datos">2019 - Autónoma</p>
-          <h3 class="formacion__instituciones__intitucion__titulo">Ingeniería de Sistemas</h3>
+      <div class="formaciones">
+        <div class="formacion">
+          <img class="formacion__img formacion__img--autonoma" src="assets/img/logo-autonoma.png"
+            alt="logo universidad autonoma del Perú" />
+          <p class="formacion__fecha">2019 - Autónoma</p>
+          <h3 class="formacion__titulo">Ingeniería de Sistemas</h3>
         </div>
-        <div class="formacion__instituciones__intitucion">
-          <img class="formacion__instituciones__intitucion__img formacion__instituciones__intitucion__img--alura"
-            src="assets/img/logo-alura.png" alt="logo de alura" />
-          <p class="formacion__instituciones__intitucion__datos">En curso - Alura</p>
-          <h3 class="formacion__instituciones__intitucion__titulo">Formación en Front-End</h3>
+        <div class="formacion">
+          <img class="formacion__img formacion__img--alura" src="assets/img/logo-alura.png" alt="logo de alura" />
+          <p class="formacion__fecha">En curso - Alura</p>
+          <h3 class="formacion__titulo">Formación en Front-End</h3>
         </div>
-        <div class="formacion__instituciones__intitucion">
-          <img class="formacion__instituciones__intitucion__img formacion__instituciones__intitucion__img--idat"
-            src="assets/img/logo-idat.png" alt="logo del instituo Idat" />
-          <p class="formacion__instituciones__intitucion__datos">2021 - Idat</p>
-          <h3 class="formacion__instituciones__intitucion__titulo">Digitador Alfanumérico</h3>
+        <div class="formacion">
+          <img class="formacion__img formacion__img--idat" src="assets/img/logo-idat.png"
+            alt="logo del instituo Idat" />
+          <p class="formacion__fecha">2021 - Idat</p>
+          <h3 class="formacion__titulo">Digitador Alfanumérico</h3>
         </div>
       </div>
     </section>
 
-    <section id="proyectos" class="proyectos contenedor">
+    <section class="contenedor seccion--item" id="proyectos">
       <h1 class="titulo">Proyectos</h1>
-      <ul class="proyectos__trabajos">
-        <li class="proyectos__trabajos__trabajo">
-          <div class="proyectos__trabajos__trabajo__barra">
-            <h2 class="proyectos__trabajos__trabajo__barra__titulo">Encriptador de textos</h2>
+      <ul class="proyectos">
+        <li class="proyecto">
+          <div class="proyecto__barra">
+            <h2 class="proyecto__titulo">Encriptador de textos</h2>
             <i></i>
           </div>
-          <div class="proyectos__trabajos__trabajo__tags">
-            <img class="proyectos__trabajos__trabajo__tags__img" src="assets/img/p_encriptador.svg"
-              alt="Encriptador de texto" />
-            <div class="proyectos__trabajos__trabajo__tags__implementos">
-              <ul>
-                <li>HMTL5</li>
-                <li>CSS3</li>
-                <li>Javascript</li>
-                <li>Animación</li>
-                <li>Diseño responsivo</li>
+          <div class="proyecto__tags">
+            <img class="proyecto__img" src="assets/img/p_encriptador.svg" alt="Encriptador de texto" />
+            <div class="implementos">
+              <ul class="implementos__item">
+                <li class="implementos__link">HMTL5</li>
+                <li class="implementos__link">CSS3</li>
+                <li class="implementos__link">Javascript</li>
+                <li class="implementos__link">Animación</li>
+                <li class="implementos__link">Diseño responsivo</li>
               </ul>
-              <div class="proyectos__trabajos__trabajo__tags__botones">
-                <a href="https://github.com/Tamago-Beta/Encriptador-de-texto" target="_blank"><button
-                    class="proyectos__trabajos__trabajo__tags__botones__boton" type="button">
-                    <i class="fa-brands fa-github-alt"></i>Repositorio</button></a>
-                <a href="https://tamago-beta.github.io/Encriptador-de-texto/" target="_blank"><button
-                    class="proyectos__trabajos__trabajo__tags__botones__boton" type="button">
-                    <i class="fa-solid fa-laptop-code"></i>Ver Demo</button></a>
+              <div class="proyecto__botones">
+                <button class="proyecto__boton" type="button">
+                  <a href="https://github.com/Tamago-Beta/Encriptador-de-texto" target="_blank">
+                    <i class="fa-brands fa-github-alt"></i>Repositorio
+                  </a>
+                </button>
+                <button class="proyecto__boton" type="button">
+                  <a href="https://tamago-beta.github.io/Encriptador-de-texto/" target="_blank">
+                    <i class="fa-solid fa-laptop-code"></i>Ver Demo
+                  </a>
+                </button>
               </div>
             </div>
           </div>
         </li>
-        <li class="proyectos__trabajos__trabajo">
-          <div class="proyectos__trabajos__trabajo__barra">
-            <h2 class="proyectos__trabajos__trabajo__barra__titulo">Carrito de compras</h2>
+        <li class="proyecto">
+          <div class="proyecto__barra">
+            <h2 class="proyecto__titulo">Carrito de compras</h2>
             <i></i>
           </div>
-          <div class="proyectos__trabajos__trabajo__tags">
-            <img class="proyectos__trabajos__trabajo__tags__img" src="assets/img/p_carrito.svg"
-              alt="Encriptador de texto" />
-            <div class="proyectos__trabajos__trabajo__tags__implementos">
-
-              <ul>
-                <li>HMTL5</li>
-                <li>CSS3</li>
-                <li>Javascript</li>
-                <li>Diseño responsivo</li>
+          <div class="proyecto__tags">
+            <img class="proyecto__img" src="assets/img/p_carrito.svg" alt="Carrito de compras" />
+            <div class="implementos">
+              <ul class="implementos__item">
+                <li class="implementos__link">HMTL5</li>
+                <li class="implementos__link">CSS3</li>
+                <li class="implementos__link">Javascript</li>
+                <li class="implementos__link">Diseño responsivo</li>
               </ul>
-              <div class="proyectos__trabajos__trabajo__tags__botones">
-                <a href="https://github.com/Tamago-Beta/Carrito_Compras_JS/tree/master" target="_blank"><button
-                    class="proyectos__trabajos__trabajo__tags__botones__boton" type="button">
-                    <i class="fa-brands fa-github-alt"></i>Repositorio</button></a>
-                <a href="https://tamago-beta.github.io/Carrito_Compras_JS/" target="_blank"><button
-                    class="proyectos__trabajos__trabajo__tags__botones__boton" type="button">
-                    <i class="fa-solid fa-laptop-code"></i>Ver Demo</button></a>
+              <div class="proyecto__botones">
+                <button class="proyecto__boton" type="button">
+                  <a href="https://github.com/Tamago-Beta/Carrito_Compras_JS/tree/master" target="_blank">
+                    <i class="fa-brands fa-github-alt"></i>Repositorio
+                  </a>
+                </button>
+                <button class="proyecto__boton" type="button">
+                  <a href="https://tamago-beta.github.io/Carrito_Compras_JS/" target="_blank">
+                    <i class="fa-solid fa-laptop-code"></i>Ver Demo
+                  </a>
+                </button>
               </div>
             </div>
           </div>
         </li>
-        <li class="proyectos__trabajos__trabajo">
-          <div class="proyectos__trabajos__trabajo__barra">
-            <h2 class="proyectos__trabajos__trabajo__barra__titulo">TODO app</h2>
+        <li class="proyecto">
+          <div class="proyecto__barra">
+            <h2 class="proyecto__titulo">Lista de tareas</h2>
             <i></i>
           </div>
-          <div class="proyectos__trabajos__trabajo__tags">
-            <img class="proyectos__trabajos__trabajo__tags__img" src="assets/img/p_todo.svg"
-              alt="Encriptador de texto" />
-            <div class="proyectos__trabajos__trabajo__tags__implementos">
-
-              <ul>
-                <li>HMTL5</li>
-                <li>CSS3</li>
-                <li>Javascript</li>
-                <li>Diseño responsivo</li>
+          <div class="proyecto__tags">
+            <img class="proyecto__img" src="assets/img/p_todo.svg" alt="Lista de tareas" />
+            <div class="implementos">
+              <ul class="implementos__item">
+                <li class="implementos__link">HMTL5</li>
+                <li class="implementos__link">CSS3</li>
+                <li class="implementos__link">Javascript</li>
+                <li class="implementos__link">CRUD</li>
+                <li class="implementos__link">Diseño responsivo</li>
               </ul>
-              <div class="proyectos__trabajos__trabajo__tags__botones">
-                <a href="https://github.com/Tamago-Beta/ToDoList" target="_blank"><button
-                    class="proyectos__trabajos__trabajo__tags__botones__boton" type="button">
-                    <i class="fa-brands fa-github-alt"></i>Repositorio</button></a>
-                <a href="https://tamago-beta.github.io/ToDoList/" target="_blank"><button
-                    class="proyectos__trabajos__trabajo__tags__botones__boton" type="button">
-                    <i class="fa-solid fa-laptop-code"></i>Ver Demo</button></a>
+              <div class="proyecto__botones">
+                <button class="proyecto__boton" type="button">
+                  <a href="https://github.com/Tamago-Beta/ToDoList" target="_blank">
+                    <i class="fa-brands fa-github-alt"></i>Repositorio
+                  </a>
+                </button>
+                <button class="proyecto__boton" type="button">
+                  <a href="https://tamago-beta.github.io/ToDoList/" target="_blank">
+                    <i class="fa-solid fa-laptop-code"></i>Ver Demo
+                  </a>
+                </button>
               </div>
             </div>
           </div>
         </li>
-        <li class="proyectos__trabajos__trabajo">
-          <div class="proyectos__trabajos__trabajo__barra">
-            <h2 class="proyectos__trabajos__trabajo__barra__titulo">Web diseño interiores</h2>
+        <li class="proyecto">
+          <div class="proyecto__barra">
+            <h2 class="proyecto__titulo">Aplicacion del clima</h2>
             <i></i>
           </div>
-          <div class="proyectos__trabajos__trabajo__tags">
-            <img class="proyectos__trabajos__trabajo__tags__img" src="assets/img/p_hogar.svg"
-              alt="Encriptador de texto" />
-            <div class="proyectos__trabajos__trabajo__tags__implementos">
-
-              <ul>
-                <li>HMTL5</li>
-                <li>CSS3</li>
-                <li>Javascript</li>
-                <li>Wordpress</li>
-                <li>Diseño responsivo</li>
-                <li>Animación</li>
+          <div class="proyecto__tags">
+            <img class="proyecto__img" src="assets/img/p_clima.svg" alt="Aplicacion del clima" />
+            <div class="implementos">
+              <ul class="implementos__item">
+                <li class="implementos__link">HMTL5</li>
+                <li class="implementos__link">CSS3</li>
+                <li class="implementos__link">Javascript</li>
+                <li class="implementos__link">Weather API</li>
+                <li class="implementos__link">Geolocalización</li>
+                <li class="implementos__link">Diseño responsivo</li>
               </ul>
-              <div class="proyectos__trabajos__trabajo__tags__botones">
-                <a href="#"><button class="proyectos__trabajos__trabajo__tags__botones__boton" type="button">
-                    <i class="fa-brands fa-github-alt"></i>Repositorio</button></a>
-                <a href="#"><button class="proyectos__trabajos__trabajo__tags__botones__boton" type="button">
-                    <i class="fa-solid fa-laptop-code"></i>Ver Demo</button></a>
+              <div class="proyecto__botones">
+                <button class="proyecto__boton" type="button">
+                  <a href="https://github.com/Tamago-Beta/App-clima" target="_blank">
+                    <i class="fa-brands fa-github-alt"></i>Repositorio
+                  </a>
+                </button>
+                <button class="proyecto__boton" type="button">
+                  <a href="https://tamago-beta.github.io/App-clima/" target="_blank">
+                    <i class="fa-solid fa-laptop-code"></i>Ver Demo
+                  </a>
+                </button>
               </div>
             </div>
           </div>
@@ -342,37 +375,47 @@
       </ul>
     </section>
 
-    <div id="contactame" class="contactame contenedor">
+    <div class="contenedor seccion--item" id="contactame">
       <h1 class="titulo">Ponte en contacto</h1>
-      <div class="contactame__informacion">
-        <div class="contactame__informacion__email">
-          <h3 class="contactame__informacion__email__titulo">¡Hablemos acerca de todo!</h3>
-          <p class="contactame__informacion__email__correo">¿No te gustan los formularios? Envíame un <a
+      <div class="contacto">
+        <div class="mensaje">
+          <h3 class="mensaje__titulo">¡Hablemos acerca de todo!</h3>
+          <p class="mensaje__email">¿No te gustan los formularios? Envíame un <a
               href="mailto:elcorreoquequieres@correo.com">email.
             </a>👋</p>
         </div>
-        <div class=" contactame__informacion__formulario">
-          <form action="#" id="contactame__formulario" class="contactame__informacion__formulario__form">
-            <div class="contactame__informacion__formulario__form__datos">
-              <div class="contactame__informacion__formulario__form__datos--m6">
-                <input type="text" placeholder="Tu nombre">
-                <input type="text" placeholder="Tu email">
+        <form class="formulario" action="https://formspree.io/f/xjvdogja" method="POST" id="form">
+          <div class="entradas">
+            <div class="entradas--flex">
+              <div class="entrada">
+                <input class="entrada__caja" type="text" name="name" placeholder="Nombre" required>
+                <span class="entrada__mensaje">Este campo no es valido</span>
               </div>
-              <input type="text" placeholder="Asunto">
-              <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+              <div class="entrada">
+                <input class="entrada__caja" type="email" name="email" placeholder="Correo" required>
+                <span class="entrada__mensaje">Este campo no es valido</span>
+              </div>
             </div>
-            <button class="contactame__informacion__formulario__form__datos__boton boton" name="submit"
-              type="submit">Enviar mensaje</button>
-          </form>
-        </div>
+            <div class="entrada">
+              <input class="entrada__caja" type="text" name="subject" placeholder="Asunto" required>
+              <span class="entrada__mensaje">Este campo no es valido</span>
+            </div>
+            <div class="entrada">
+              <textarea class="entrada__caja entrada__caja--txtarea" name="message" cols="30" rows="10"
+                placeholder="Mensaje" required></textarea>
+              <span class="entrada__mensaje">Este campo no es valido</span>
+            </div>
+            <button class="entrada__boton boton" name="submit" type="submit">Enviar mensaje</button>
+          </div>
+        </form>
       </div>
     </div>
-
     <footer class="rodapie">
       <p class="rodapie__mensaje">Elaborado por Carlos Macavilca | 2023</p>
     </footer>
   </main>
-  <script src="assets/script/script.js"></script>
+  <script src="assets/script/script.js" type="module"></script>
+  <!-- <script src="assets/script/formulario.js"></script> -->
 </body>
 
 </html>

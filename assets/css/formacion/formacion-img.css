@@ -1,0 +1,13 @@
+.formacion__img {
+  width: 100%;
+}
+
+.formacion__img--autonoma {
+  height: 71px;
+}
+.formacion__img--alura {
+  width: 160px;
+}
+.formacion__img--idat {
+  width: 160px;
+}

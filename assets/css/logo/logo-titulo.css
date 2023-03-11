@@ -1,0 +1,10 @@
+.logo__titulo {
+  display: block;
+  color: var(--background);
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.logo__titulo span {
+  color: #ff2d75;
+}

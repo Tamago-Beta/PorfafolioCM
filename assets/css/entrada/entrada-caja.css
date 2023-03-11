@@ -1,0 +1,20 @@
+.entrada__caja {
+  border-radius: 1.5rem;
+  padding: 10px 15px;
+  border: 2px solid var(--color-terciario);
+  outline: none;
+  height: 60px;
+  font-size: 1.6rem;
+  color: var(--color-terciario);
+}
+
+.entrada__caja::placeholder {
+  font-family: var(--font-Rubik);
+  font-size: 1.6rem;
+  color: var(--color-terciario);
+}
+
+.entrada__caja--txtarea {
+  height: auto;
+  resize: none;
+}

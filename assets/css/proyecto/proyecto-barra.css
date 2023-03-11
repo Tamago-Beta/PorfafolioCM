@@ -1,0 +1,40 @@
+.proyecto__barra {
+  background: var(--color-cuaternario);
+  width: 100%;
+  padding: 7px 20px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.proyecto__barra i {
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  background-color: #ff5f57;
+  border-radius: 50%;
+  position: absolute;
+  top: 8px;
+  left: 20px;
+}
+
+.proyecto__barra i::before {
+  content: " ";
+  position: absolute;
+  left: 16px;
+  height: 12px;
+  border-radius: 50%;
+  width: 12px;
+  background-color: #ffbd2e;
+  top: 0;
+}
+.proyecto__barra i::after {
+  content: " ";
+  position: absolute;
+  left: 32px;
+  height: 12px;
+  border-radius: 50%;
+  width: 12px;
+  background-color: #28ca41;
+  top: 0;
+}

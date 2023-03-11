@@ -1,0 +1,18 @@
+.proyecto__boton {
+  padding: 7px;
+  border-radius: 6px;
+  background: var(--color-cuaternario);
+  cursor: pointer;
+  border: none;
+}
+
+.proyecto__boton:hover {
+  background: rgb(221, 231, 221);
+}
+
+.proyecto__boton a {
+  color: var(--color-secundario);
+}
+.proyecto__boton i {
+  margin-right: 5px;
+}

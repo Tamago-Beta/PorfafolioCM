@@ -1,0 +1,13 @@
+@import url(./perfil-img.css);
+@import url(./perfil-nombre.css);
+@import url(./perfil-boton.css);
+
+.perfil {
+  color: var(--background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+}

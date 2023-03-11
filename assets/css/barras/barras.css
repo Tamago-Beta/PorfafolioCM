@@ -1,0 +1,28 @@
+@import url("./barras-linea1.css");
+@import url("./barras-linea2.css");
+@import url("./barras-linea3.css");
+
+.barras {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.barras span {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: var(--background);
+
+  transition: all 300ms;
+  transform-origin: 0px 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .barras {
+    display: none;
+  }
+}

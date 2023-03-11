@@ -1,0 +1,19 @@
+@import url(./informacion-foto.css);
+
+.informacion {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .informacion {
+    flex-direction: row;
+    gap: 4.8rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .informacion {
+    gap: 6rem;
+  }
+}

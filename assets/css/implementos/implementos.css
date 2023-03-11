@@ -1,0 +1,23 @@
+@import url(./implementos-item.css);
+@import url(./implementos-link.css);
+@import url(../proyecto/proyecto-tags.css);
+
+.implementos {
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 19px;
+}
+
+.proyecto__tags:hover .implementos {
+  top: 0;
+  opacity: 1;
+}

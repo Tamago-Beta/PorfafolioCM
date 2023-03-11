@@ -1,0 +1,6 @@
+.hobbies {
+  margin-top: 3.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

@@ -1,9 +1,16 @@
+@import url(reset.css);
+@import url(variables.css);
+
 .contenedor {
   width: 96%;
   max-width: 1024px;
   height: 100%;
   margin: 0 auto;
   overflow: hidden;
+}
+
+.seccion--item {
+  padding-inline: 0.7rem;
 }
 
 .titulo {
@@ -16,7 +23,7 @@
 
 .titulo::before {
   content: "";
-  background-image: url(../img/dots.svg);
+  background-image: url(../../img/dots.svg);
   background-repeat: no-repeat;
   background-size: 50px;
   opacity: 0.1;
@@ -29,7 +36,6 @@
 }
 
 .boton {
-  color: #ffff;
   border: none;
   padding: 1.2rem 3.2rem;
   border-radius: 30px;

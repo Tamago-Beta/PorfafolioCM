@@ -1,0 +1,13 @@
+@import url(./tarjeta-info.css);
+@import url(./tarjeta-boton.css);
+
+.tarjeta {
+  background: #ffff;
+  box-shadow: 0px 0px 10px 0px rgb(69 67 96 / 20%);
+  border-radius: 20px;
+  padding: 1.875rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  position: relative;
+}

@@ -1,0 +1,9 @@
+@import url(./hobbie-icon.css);
+@import url(./hobbie-dato.css);
+
+.hobbie {
+  width: 140px;
+  padding: 3rem 2rem;
+  text-align: center;
+  color: #5e5c7f;
+}

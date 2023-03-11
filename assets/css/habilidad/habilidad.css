@@ -1,0 +1,29 @@
+@import url(./habilidad-img.css);
+@import url(./habilidad-nombre.css);
+
+.habilidad {
+  width: 164px;
+  height: 153px;
+  margin-bottom: 1.7rem;
+  background: var(--color-secundario);
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.habilidad:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 5px 20px 0 rgb(0 0 0 / 70%);
+}
+
+@media screen and (min-width: 768px) {
+  .habilidad {
+    width: 220px;
+    height: 166px;
+  }
+}

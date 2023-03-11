@@ -1,0 +1,7 @@
+@import url(./redes-icon.css);
+
+.redes {
+  margin: 2rem 0;
+  display: flex;
+  gap: 2.6rem;
+}

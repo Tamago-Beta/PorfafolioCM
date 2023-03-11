@@ -1,0 +1,37 @@
+@import url(./formacion-img.css);
+@import url(./formacion-fecha.css);
+@import url(./formacion-titulo.css);
+
+.formacion {
+  background: #ffffff;
+  border-left: 3px solid var(--color-terciario);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  width: 100%;
+  max-width: 768px;
+  height: 210px;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  transition: transform 0.3s ease-in-out;
+}
+
+.formacion:hover {
+  transform: rotateZ(-2deg);
+}
+
+@media screen and (min-width: 768px) {
+  .formacion {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .formacion {
+    width: 32%;
+    height: 250px;
+  }
+}

@@ -1,0 +1,8 @@
+@import url(./entrada-caja.css);
+@import url(./entrada-mensaje.css);
+@import url(./entrada-boton.css);
+
+.entrada {
+  display: flex;
+  flex-direction: column;
+}

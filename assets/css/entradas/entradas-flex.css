@@ -1,0 +1,11 @@
+.entradas--flex {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .entradas--flex {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,5 @@
+.tarjeta__boton {
+  background: var(--color-terciario);
+  margin-top: 2rem;
+  width: 180px;
+}

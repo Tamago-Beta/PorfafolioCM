@@ -1,0 +1,29 @@
+@import url(./proyecto-barra.css);
+@import url(./proyecto-titulo.css);
+@import url(./proyecto-tags.css);
+@import url(./proyecto-img.css);
+@import url(./proyecto-botones.css);
+@import url(./proyecto-boton.css);
+
+.proyecto {
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+
+  width: 345px;
+  height: 279px;
+  margin-bottom: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 1024px) {
+  .proyecto {
+    width: 452px;
+    height: 365px;
+  }
+}
