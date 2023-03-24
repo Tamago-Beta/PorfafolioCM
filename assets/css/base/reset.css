@@ -10,9 +10,20 @@ html {
 }
 
 body {
+  background: var(--background);
   font-family: var(--font-Rubik);
   color: var(--color-secundario);
+  overflow: overlay;
   font-size: 1.6rem;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-primario);
+  border-radius: 8px;
 }
 
 h1 {

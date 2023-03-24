@@ -1,11 +1,11 @@
 .habilidades {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .habilidades {
     justify-content: space-around;
   }
-}
+} */

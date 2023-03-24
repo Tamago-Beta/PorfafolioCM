@@ -1,10 +1,10 @@
 .menu__link {
   text-decoration: none;
   color: var(--background);
-  font-weight: 700;
+  font-weight: 600;
   margin-left: 1rem;
-  font-size: 2rem;
-  transition: color 0.2s ease-in-out;
+  font-size: 1.7rem;
+  transition: all 0.3s;
 }
 
 .menu__link:hover {
@@ -18,7 +18,6 @@
 @media screen and (min-width: 1024px) {
   .menu__link {
     margin-left: 25px;
-    transition: color 0.2s ease-in-out;
-    font-size: 1.6rem;
+    transition: color 0.2s ease-in;
   }
 }

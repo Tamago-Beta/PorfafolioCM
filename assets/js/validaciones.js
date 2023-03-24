@@ -1,4 +1,13 @@
-export function valida(entrada) {
+export function validarInputs() {
+    const entradas = document.querySelectorAll(".entrada__caja");
+    entradas.forEach((entrada) => {
+        entrada.addEventListener("blur", (entrada) => {
+            valida(entrada.target);
+        })
+    });
+}
+
+function valida(entrada) {
     const tipoDeEntrada = entrada.dataset.tipo;
     
     if (entrada.validity.valid) {
@@ -15,9 +24,6 @@ function mostrarMensajeDeError(tipoDeEntrada, entrada) {
     let mensaje = "";
     tipoDeErrores.forEach((error) => {
         if (entrada.validity[error]) {
-            console.log(tipoDeEntrada, error);
-            console.log(entrada.validity[error]);
-            console.log(mensajesDeError[tipoDeEntrada][error]);
             mensaje = mensajesDeError[tipoDeEntrada][error];
         }
     });
